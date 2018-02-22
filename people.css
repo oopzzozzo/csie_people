@@ -1,0 +1,20 @@
+body{
+	font-size: 30px;
+}
+.card-header{
+	font-size: 50px;
+}
+name{
+	font-size: 40px;
+}
+.avatar{
+	width: 100%;
+}
+job{
+	font-size: 50px;
+	line-height: 240px;
+}
+adj{
+	font-size: 40px;
+	line-height: 240px;
+}
