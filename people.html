@@ -11,26 +11,93 @@
     </div>
     <!-- for small device -->
     <div id="list" class="d-lg-none d-xl-none">
+
       <div id="C1" class="card">
-        <button class="btn btn-link text-left" data-toggle=:colapse" data-target="#D1" aria-expanded="true" aria-controls="D1">
+        <button type="button" class="btn btn-link text-left" data-toggle="collapse" data-target="#D1" aria-expanded="false" aria-controls="D1">
           <div class="card-header" id="L1"> 召部 </div>
         </button>
-        <div id="D1" class="collapse show" aria-labelledby="L1">
+        <div id="D1" class="collapse" aria-labelledby="C1" data-parent="#list">
           <div class="card-body">
             <ul class=list-group>
-              <li class="list-group-item"><job>總召：</job>
-                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#M1,1,1">
-                  <name>皮卡丘</name>
-                </button>
+              <li class="list-group-item">
+                <div class="row"> <div class="col-3"><job>總召：</job></div>
+                  <div class="col-9">
+                    <adj>
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    </adj>
+                  </div>
+                </div>
               </li>
-              <li class="list-group-item"><job>副召：</job>
-                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#M1,1,1">
-                  <name>皮卡丘</name>
-                </button>
+              <li class="list-group-item">
+                <div class="row"> <div class="col-3"><job>副召：</job></div>
+                  <div class="col-9">
+                    <adj>
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    </adj>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      <div id="C2" class="card">
+        <button type="button" class="btn btn-link text-left" data-toggle="collapse" data-target="#D2" aria-expanded="false" aria-controls="D2">
+          <div class="card-header" id="L2"> 工具 </div>
+        </button>
+        <div id="D2" class="collapse" aria-labelledby="L2" data-parten="#list">
+          <div class="card-body">
+            <ul class=list-group>
+              <li class="list-group-item">
+                <div class="row"> <div class="col-3"><job>工具人：</job></div>
+                  <div class="col-9">
+                    <adj>
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;&nbsp; 
+                    <button type="button" class="btn btn-outline-secondary col-3" data-toggle="modal" data-target="#M1,1,1">
+                      <img class="avatar" src="img/pika_profile.png"><br>
+                      <name>皮卡丘</name>
+                    </button>&nbsp;
+                    </adj>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
+
     <!-- namecards -->
     <div id="M1,1,1" class="modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
