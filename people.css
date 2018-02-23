@@ -3,7 +3,19 @@ body{
 }
 .card-header{
 	font-size: 50px;
+	color: #000000;
 }
+#work .card-header{
+	background-color: #DBFFA4;
+}
+#show .card-header{
+	background-color: #f7f593;
+}
+.h-20{
+	height: 30%;
+}
+.carousel{
+
 name{
 	font-size: 40px;
 }
@@ -18,3 +30,4 @@ adj{
 	font-size: 40px;
 	line-height: 240px;
 }
+
