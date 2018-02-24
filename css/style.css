@@ -1,0 +1,52 @@
+/* background-color is added for debug purpose */
+div.right {
+	position: relative;
+	padding-top: 3%;
+	width: 100%;
+	height: 100%;
+	/*background-color: green;*/
+}
+
+div.rtop {
+	height: 81.5px;
+	/*background-color: red;*/
+}
+
+div.rbtm {
+	position: absolute;
+	top: 81.5px;
+	bottom: 0;
+	width: 100%;
+	/*background-color: orange;*/
+}
+
+div.outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+div.content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+img.department_pic {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 90%;
+}
+
+div.pic_wrapper {
+
+}
+
+img.pic {
+	width: 50px;
+}
+
+button.btn {
+	padding: 0px;
+	font-size: 0.8em;
+}
