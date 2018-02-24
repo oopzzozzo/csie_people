@@ -2,23 +2,23 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" href="people.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title></title>
   </head>
   <body>
     <!-- for small device -->
     <div class="d-lg-none d-xl-none small-device">
       <center>
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <button type="button" class="btn btn-link text-left" data-toggle="collapse" data-target="#D1" aria-expanded="false" aria-controls="D1">
-              <img class="d-block h-20" src="img/pika_profile.png" alt="召部照">
-            </button>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <button type="button" class="btn btn-link text-left" data-toggle="collapse" data-target="#D1" aria-expanded="false" aria-controls="D1">
+                <img class="d-block h-20" src="img/pika_profile.png" alt="召部照">
+              </button>
+            </div>
           </div>
         </div>
-      </div>
       </center>
       
       <div id="work">
@@ -76,8 +76,7 @@
     </div>
     <!-- for large device -->
     <div id="collapse" class="d-none d-lg-block d-xl-block large-device">
-
-      <div class="container" id="w5">
+      <div class="container">
         <div class="row">
           <div class="col-6">
             <img class="department_pic" src="img/dog3.jpg" alt="" data-position="center center"/>
@@ -101,7 +100,6 @@
                         <name>皮卡丘</name>
                       </button>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -109,7 +107,45 @@
           </div>
         </div>
       </div>
-
+    </div>
+    <!-- namecards -->
+    <div id="M1,1,1" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+             <div class="col-lg-6 col-md-12">
+                <img src="img/pikachu.jpg" alt="皮卡丘照" width=100%>
+             </div>
+             <div class="col-lg-6 col-md-12 align-self-end">
+               <div class="modal-title">
+                 <div class="row">
+                   <div class="col-lg-12 col-md-3">
+                     皮卡丘
+                   </div>
+                   <div class="col-lg-12 col-md-9">
+                     <small>
+                       <span class="badge badge-warning">供電</span>
+                       <span class="badge badge-success">串場</span>
+                       <span class="badge badge-success">電全場</span>
+                       <span class="badge badge-success">進化</span>
+                       <span class="badge badge-success">電全場</span>
+                       <span class="badge badge-success">進化</span>
+                     </small>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal">關閉</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
