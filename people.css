@@ -1,32 +1,31 @@
-body{
+.small-device{
 	font-size: 30px;
 }
-.card-header{
+.small-device .card-header{
 	font-size: 50px;
 	color: #000000;
 }
-#work .card-header{
+.small-device #work .card-header{
 	background-color: #DBFFA4;
 }
-#show .card-header{
+.small-device #show .card-header{
 	background-color: #f7f593;
 }
-.h-20{
+.small-device .h-20{
 	height: 30%;
 }
-.carousel{}
 
-name{
+.small-device name{
 	font-size: 40px;
 }
-.avatar{
+.small-device .avatar{
 	width: 100%;
 }
-job{
+.small-device job{
 	font-size: 50px;
 	line-height: 240px;
 }
-adj{
+.small-device adj{
 	font-size: 40px;
 	line-height: 240px;
 }
